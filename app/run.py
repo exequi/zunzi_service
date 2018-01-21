@@ -19,8 +19,5 @@ def user_account_register():
     return service.account.register(request.form)
 
 
-#if __name__ == '__main__':
-#    app.run(debug=True)
-
-r= service.account.register({'account':'1','password':'22'})
-print r
+if __name__ == '__main__':
+    app.run(debug=True)
