@@ -6,6 +6,6 @@ import logging.config
 
 
 def obj(key="example01"):
-    logging.config.fileConfig("logger.conf")
+    logging.config.fileConfig("config/logger.conf")
     logger = logging.getLogger(key)
     return logger

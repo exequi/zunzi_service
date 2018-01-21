@@ -1,4 +1,7 @@
+#!/usr/bin/python
 # -*- coding: UTF-8 -*-
+
+
 import md5
 import uuid
 import datetime

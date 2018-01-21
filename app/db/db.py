@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 import sqlite3
-import mylog
+import lib.mylog as mylog
 
 
 def execute(sql, param):
